@@ -41,7 +41,7 @@ cacheSolve <- function(x, ...) {
 ## Function to compute the reverse of the special "matrix" 
 
 rev <- function(matr){
-      revmat <- matrix(nrow=ncol(matr),ncol=nrow(matr))
+      revmat <- matrix(nrow=ncol(matr), ncol=nrow(matr))
       #print(matr)
       for(i in 1:nrow(matr)){
             for(j in 1:ncol(matr)){
